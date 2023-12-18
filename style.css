@@ -1,14 +1,12 @@
-
-
 body {
   font-family: 'Gill Sans';
-  background: linear-gradient(#D6D9CE , #247BA0, #1B264F) fixed;
+  background: linear-gradient(#D6D9CE, #247BA0, #1B264F) fixed;
   width: auto;
 }
 
 main {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
 }
 
 article {
@@ -17,12 +15,9 @@ article {
   padding: 2em;
   margin-top: 5em;
   margin-bottom: 5em;
- font-size: large;
+  font-size: large;
 }
 
-strong {
-  font-family: monospace;
-}
 
 header {
   background-color: #D6D9CE;
@@ -31,13 +26,6 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%; 
-  max-height: 200px;
-  display: flexbox;
 }
 
 footer {
@@ -49,6 +37,7 @@ footer {
   color: #000;
   text-align: center;
   padding: 10px;
+  animation: 3s linear 1s infinite alternate slidein;
 }
 
 div {
@@ -59,7 +48,44 @@ div {
 }
 
 img {
+  max-height: 200px;
+  display: flex;
   max-width: 100%;
-  height: auto;
   border-radius: 8px;
+  transition: all 2s ease;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-color: #000;
+  color: #000;
+
+  transition: all 600ms ease;
+}
+
+a:hover {
+  background: #1B264F;
+  padding: 0.01em;
+  text-decoration-line: underline;
+  text-decoration-color: #D6D9CE;
+  color: #D6D9CE;
+  border-radius: 0.15em;
+  transform: scale(2);
+}
+
+a:active {
+  background: #AA4465;
+  padding: 0.5em;
+  text-decoration-line: underline;
+  text-decoration-color: #D6D9CE;
+  color: #D6D9CE;
+  border-radius: 0.15em;
+}
+
+img:hover {
+  transform: rotate(1turn);
+}
+
+img:active {
+  transform: scale(2);
 }
