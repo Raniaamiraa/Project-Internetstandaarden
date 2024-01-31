@@ -1,0 +1,107 @@
+body {
+    font-family: 'Gill Sans';
+    background: linear-gradient(#D6D9CE, #247BA0, #1B264F) fixed;
+    width: auto;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+}
+
+article {
+    align-items: center;
+    background: linear-gradient(#F4C3C2, #AA4465) fixed;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: large;
+
+}
+
+.naast-elkaar {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+section {
+    align-items: center;
+    background: linear-gradient(#AA4465, #F4C3C2) fixed;
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font-size: large;
+}
+
+
+header {
+    background-color: #D6D9CE;
+    color: #000;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #247BA0;
+    color: #000;
+    text-align: center;
+    padding: 0.5em;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+img {
+    max-height: 200px;
+    display: flex;
+    max-width: 100%;
+    border-radius: 8px;
+    transition: all 2s ease;
+}
+
+a {
+    text-decoration-line: underline;
+    text-decoration-color: #000;
+    color: #000;
+
+    transition: all 600ms ease;
+}
+
+a:hover {
+    background: #1B264F;
+    padding: 0.01em;
+    text-decoration-line: underline;
+    text-decoration-color: #D6D9CE;
+    color: #D6D9CE;
+    border-radius: 0.15em;
+    transform: scale(2);
+}
+
+a:active {
+    background: #AA4465;
+    padding: 0.5em;
+    text-decoration-line: underline;
+    text-decoration-color: #D6D9CE;
+    color: #D6D9CE;
+    border-radius: 0.15em;
+}
+
+img:hover {
+    transform: rotate(1turn);
+}
+
+img:active {
+    transform: scale(2);
+}

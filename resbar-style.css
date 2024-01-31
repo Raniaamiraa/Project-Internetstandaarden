@@ -16,14 +16,22 @@ article {
   margin-top: 2em;
   margin-bottom: 2em;
   font-size: large;
+ 
 }
+
+.naast-elkaar {
+    float: left;
+    width: 50%; 
+    box-sizing: border-box;
+}
+
 
 section{
   align-items: center;
   background: linear-gradient( #AA4465, #F4C3C2) fixed;
-  padding: 1em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  padding: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
   font-size: large;
 }
 
@@ -67,6 +75,7 @@ a {
   text-decoration-line: underline;
   text-decoration-color: #000;
   color: #000;
+
   transition: all 600ms ease;
 }
 
@@ -96,5 +105,3 @@ img:hover {
 img:active {
   transform: scale(2);
 }
-
-
